@@ -61,7 +61,7 @@ class HomeScreen extends StatelessWidget {
               const TermsAndPrivacy(),
               const SizedBox(height: 38.0),
               RichText(
-                text: TextSpan(
+                text: const TextSpan(
                   text: 'Have an account already? ',
                   style: TextStyle(color: Colors.black),
                   children: [

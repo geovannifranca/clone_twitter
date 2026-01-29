@@ -5,7 +5,7 @@ class TermsAndPrivacy extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text.rich(
+    return const Text.rich(
       TextSpan(
         text: 'By singning up, you agree to our ',
         children: [

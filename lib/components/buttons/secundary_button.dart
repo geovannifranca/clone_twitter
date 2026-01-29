@@ -35,7 +35,7 @@ class SecundaryButton extends StatelessWidget {
               const SizedBox(width: 12.0),
               Text(
                 label,
-                style: TextStyle(
+                style: const TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 16.2,
                   color: Colors.white,

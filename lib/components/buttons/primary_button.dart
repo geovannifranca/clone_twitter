@@ -30,7 +30,7 @@ class PrimaryButton extends StatelessWidget {
             children: [
               Image.asset('assets/images/$icon', width: 18),
               const SizedBox(width: 12.0),
-              Text(label, style: TextStyle(fontWeight: FontWeight.bold)),
+              Text(label, style: const TextStyle(fontWeight: FontWeight.bold)),
             ],
           ),
         ),
